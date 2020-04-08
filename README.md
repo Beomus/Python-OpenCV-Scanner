@@ -18,4 +18,4 @@ It scans the images provided then detects the four corners of the image. Then ap
 
 ## Known Bugs
 
-Sometimes, `screenContour` is not defined since it could not be captured. Play around with `cv2.approxPolyDP` with the value between 0.01 ~ 0.05 (1% ~ 5%). 
+Sometimes, `screenContour` is not defined since it could not be captured. Play around with `cv2.approxPolyDP()` with the value between 0.01 ~ 0.05 (1% ~ 5%). 
