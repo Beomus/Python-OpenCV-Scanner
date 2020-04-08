@@ -17,6 +17,7 @@ It scans the images provided then detects the four corners of the image. Then ap
 `$ pip install opencv-python imutils scikit-image`
 
 **scan.py** is the main file with **transform.py** as dependency. 
+
 **transform.py** contains a function that re-order the coordinates of 4 corners and resize the image accordingly.
 
 ## Known Bugs
