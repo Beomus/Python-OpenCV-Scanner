@@ -19,3 +19,5 @@ It scans the images provided then detects the four corners of the image. Then ap
 ## Known Bugs
 
 Sometimes, `screenContour` is not defined since it could not be captured. Play around with `cv2.approxPolyDP()` with the value between 0.01 ~ 0.05 (1% ~ 5%). 
+
+`screenContour` might not capture the image perfectly due to lighting and angles, make sure the images to be scanned are well lit and the doc is the only object in the image. 
